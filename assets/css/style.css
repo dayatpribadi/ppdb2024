@@ -5286,7 +5286,7 @@ blockquote.vs-quote p {
 }
 
 .table-style1 {
-  background-color: var(--vs-secondary-color);
+  /* background-color: var(--vs-secondary-color); */
   padding: 1px 155px 85px 145px;
   border-radius: 274px 30px 274px 274px;
   text-align: center;
@@ -5305,11 +5305,13 @@ blockquote.vs-quote p {
   margin: calc(var(--icon-size, 102px) / -2) auto 40px auto;
 }
 .table-style1 .sec-title {
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: #2d2d2d;
   margin-bottom: 5px;
 }
 .table-style1 .sec-text {
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: #2d2d2d;
   margin-bottom: 20px;
 }
 .table-style1 .tr {
