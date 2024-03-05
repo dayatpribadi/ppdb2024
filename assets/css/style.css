@@ -111,6 +111,12 @@ body {
   scroll-behavior: auto !important;
 }
 
+.footerst {
+  bottom: 0;
+  position: relative;
+  width: 100vw;
+}
+
 body {
   font-family: var(--body-font);
   font-size: 16px;
@@ -8815,6 +8821,11 @@ span.select2-selection.select2-selection--single:focus {
 .space,
 .space-bottom {
   padding-bottom: var(--section-space);
+}
+
+.space,
+.space-bottomsc {
+  padding-bottom: 62px;
 }
 
 .space-extra,
