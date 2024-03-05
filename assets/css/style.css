@@ -5318,6 +5318,7 @@ blockquote.vs-quote p {
   display: flex;
   justify-content: space-between;
   background-color: var(--white-color);
+  border: 0.5px solid #666;
   margin-bottom: 5px;
   border-radius: 9999px;
   padding: 11px 0;
