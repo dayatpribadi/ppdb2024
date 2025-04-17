@@ -117,12 +117,11 @@ body {
   scroll-behavior: auto !important;
   height: calc(var(--vh, 1vh) * 100);
 
-  height: 100vh;
+  /* height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* penting: mencegah scroll */
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 .fullscreen-layout {
@@ -134,7 +133,6 @@ body {
 .main-content {
   flex: 1;
   overflow-y: auto;
-  /* agar scroll hanya di bagian konten ini kalau perlu */
 }
 
 
@@ -10236,5 +10234,33 @@ span.select2-selection.select2-selection--single:focus {
     transform: translateX(-100%);
   }
 }
+
+.bagian-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+
+@media (max-width: 575px) {
+
+  .sec-title2,
+  .sec-title {
+    font-size: 18px;
+    margin-top: -0.25em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  .sec-text {
+    font-size: 15px;
+  }
+
+  .bagian-footer {
+    position: relative;
+  }
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
