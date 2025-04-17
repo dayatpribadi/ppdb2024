@@ -3853,10 +3853,9 @@ a.text-theme:hover,
 
 .copyright-text {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--black-color);
-  font-family: var(--title-font);
 }
 
 .copyright-text a {
