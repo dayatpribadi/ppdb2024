@@ -10235,6 +10235,11 @@ span.select2-selection.select2-selection--single:focus {
   width: 100vw;
 } */
 
+.logo-opd img {
+  width: 150px;
+  height: auto;
+}
+
 
 @media (max-width: 575px) {
 
@@ -10252,6 +10257,12 @@ span.select2-selection.select2-selection--single:focus {
 
   .bagian-footer {
     position: relative;
+  }
+
+  .logo-opd img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
   }
 
 }
