@@ -10235,11 +10235,11 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-.bagian-footer {
+/* .bagian-footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
-}
+} */
 
 
 @media (max-width: 575px) {
