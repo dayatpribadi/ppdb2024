@@ -116,32 +116,27 @@ html,
 body {
   scroll-behavior: auto !important;
   height: calc(var(--vh, 1vh) * 100);
-}
 
-
-/* html,
-body {
+  height: 100vh;
   margin: 0;
   padding: 0;
-  height: 100vh;
   overflow: hidden;
+  /* penting: mencegah scroll */
+  box-sizing: border-box;
 }
 
-body {
+.fullscreen-layout {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
-main {
-  flex: 1 0 auto;
-  overflow: auto;
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  /* agar scroll hanya di bagian konten ini kalau perlu */
 }
 
-.footerst {
-  bottom: 0;
-  position: relative;
-  width: 100vw;
-} */
 
 main {
   display: block;
