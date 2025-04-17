@@ -124,7 +124,7 @@ body {
   box-sizing: border-box; */
 }
 
-.fullscreen-layout {
+/* .fullscreen-layout {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -133,7 +133,7 @@ body {
 .main-content {
   flex: 1;
   overflow-y: auto;
-}
+} */
 
 
 main {
