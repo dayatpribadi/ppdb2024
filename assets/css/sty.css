@@ -1,0 +1,72 @@
+/* Reset dan Layout Dasar */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header & Footer dengan tinggi tetap */
+.vs-header,
+.bagian-footer {
+    flex-shrink: 0;
+}
+
+/* Konten utama fleksibel */
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Marquee dibatasi tinggi */
+.marquee-container {
+    max-height: 2.5rem;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Carousel - batasi tinggi slider */
+.vs-carousel {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+/* Responsive section padding */
+section.pt-5,
+section.pt-4.pb-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Title area fix */
+.title-area {
+    margin-bottom: 1rem;
+}
+
+/* Footer responsive alignment */
+.footer-socials img {
+    max-height: 50px;
+    height: auto;
+}
+
+.copyright-text {
+    font-size: 0.9rem;
+}
+
+/* Font scaling untuk retina/high-res */
+@media (min-height: 1000px) {
+    html {
+        font-size: 15px;
+    }
+}

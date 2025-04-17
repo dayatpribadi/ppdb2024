@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PPDB Ogan Ilir</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Jost:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/sty.css">
+
+    <style>
+        /* Responsive Layout Fix */
+
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            font-size: 16px;
+        }
+
+        .section-wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .vs-header,
+        .bagian-footer {
+            flex-shrink: 0;
+        }
+
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+
+        .marquee-container {
+            max-height: 2.5rem;
+            overflow: hidden;
+            background-color: #f3f3f3;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .vs-carousel {
+            max-height: 240px;
+            overflow-y: auto;
+        }
+
+        section.pt-5,
+        section.pt-4.pb-3 {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        .title-area {
+            margin-bottom: 1rem;
+        }
+
+        .footer-socials img {
+            max-height: 50px;
+            height: auto;
+        }
+
+        .copyright-text {
+            font-size: 0.9rem;
+        }
+
+        @media (min-height: 1000px) {
+            html {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section-wrapper">
+        <!-- HEADER -->
+        <header class="vs-header">
+            <div class="container py-3 d-flex justify-content-between align-items-center">
+                <a href="#"><img src="assets/img/logo/1.png" alt="logo" height="40"></a>
+                <nav class="d-none d-lg-flex gap-3">
+                    <a href="index.html">Home</a>
+                    <a href="ppdb_datasekolah.html">Data Sekolah</a>
+                    <a href="ppdb_panduan.html">Panduan</a>
+                    <a href="ppdb_jadwal.html">Jadwal</a>
+                    <a href="ppdb_reg.html" class="btn btn-primary btn-sm">Daftar / Masuk</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- KONTEN -->
+        <main class="main-content">
+            <div class="marquee-container">
+                Selamat datang di Sistem Penerimaan Murid Baru (SPMB) 2025. Pendaftaran dibuka mulai 1 April 2025
+            </div>
+
+            <section>
+                <div class="text-center mb-4">
+                    <h3>Selamat Datang</h3>
+                    <p>Aplikasi ini digunakan untuk proses pendaftaran murid baru secara online di Kabupaten Ogan Ilir.
+                    </p>
+                    <button class="btn btn-success"><i class="fab fa-google-play me-2"></i> Download</button>
+                </div>
+            </section>
+
+            <section>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Jadwal SPMB</h4>
+                    <div>
+                        <button class="btn btn-outline-secondary btn-sm me-1">←</button>
+                        <button class="btn btn-outline-secondary btn-sm">→</button>
+                    </div>
+                </div>
+                <div class="row gx-3 gy-3 vs-carousel">
+                    <div class="col-6 col-md-4 col-xl-3">
+                        <div class="border p-3 text-center rounded">
+                            <img src="assets/img/logo/4.png" alt="" height="40" class="mb-2">
+                            <h6>Sosialisasi</h6>
+                            <p>1 - 30 April 2025</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3">
+                        <div class="border p-3 text-center rounded">
+                            <img src="assets/img/logo/4.png" alt="" height="40" class="mb-2">
+                            <h6>Pendaftaran</h6>
+                            <p>1 - 30 April 2025</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3">
+                        <div class="border p-3 text-center rounded">
+                            <img src="assets/img/logo/4.png" alt="" height="40" class="mb-2">
+                            <h6>Pengesahan</h6>
+                            <p>1 - 30 April 2025</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3">
+                        <div class="border p-3 text-center rounded">
+                            <img src="assets/img/logo/4.png" alt="" height="40" class="mb-2">
+                            <h6>Pengumuman</h6>
+                            <p>1 - 30 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="bagian-footer bg-dark text-light py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="footer-socials d-flex gap-3 align-items-center">
+                    <img src="assets/img/logo/LOGO-OI-HD2.png" alt="Logo OI" width="50">
+                    <img src="assets/img/logo/logo_diskominfo.png" alt="Diskominfo" width="150">
+                </div>
+                <p class="mb-0 copyright-text text-end">
+                    &copy; 2025 Disdikbud Ogan Ilir. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+</body>
+
+</html>
