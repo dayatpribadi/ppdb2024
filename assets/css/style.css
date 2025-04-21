@@ -115,26 +115,12 @@ Version: 1.0.0
 html,
 body {
   scroll-behavior: auto !important;
-  height: calc(var(--vh, 1vh) * 100);
-
-  /* height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  box-sizing: border-box; */
+  min-height: calc(100vh - 160px);
 }
 
-/* .fullscreen-layout {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.main-content {
+main {
   flex: 1;
-  overflow-y: auto;
-} */
-
+}
 
 body {
   font-family: var(--body-font);
@@ -145,6 +131,9 @@ body {
   line-height: 28px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 iframe {
